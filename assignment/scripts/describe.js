@@ -174,8 +174,13 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-// Fix - wrong operator used, they used the less than or equal to when they were suppose to use >=. In this case tho it would still work because "minage(21)" is equal to or smaller than "age(21)"
-//the console.log would still read("enter")
+// Fix - wrong operator used, and wrong variable order. they wrote minAge less than or equal to age.
+// It should say if "age(21)" is greater than or equal to "minAge(21)" than the consol.log will say "enter".
+
+// if(age >= minAge) {
+//  console.log("enter");}
+// else {
+// console.log("no entry");}
 
 /*
 let age = 21;
