@@ -26,11 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We made a variable and called name, than we set its value to be Dane.
+// Than we make a if conditional  that if the variable "dane" equals "mary" then the console log will read "Hi Mary"
+// Dane does not equal mary so we use an else conditional becuase it was false in the if conditional.
+// Else conditional is used. We console.log("How do you do?");
 //CODE
 /*
 let name = 'Dane';
@@ -45,10 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make 2 variables, "code" and "secret". Code is given a value of 123 and secret has not been given a value yet.
+// Than we make a if conditional that says if variable code equals 123(which it does) than we reassign values to our variables.
+// Variable secret now is "super" and variable code is now "246".
+// The next conditional says if code is greater than 250 than secret will changes its variable to duper. This is not true so this conditional is not used.
+// We would console.log ("super");
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three Variables are established, "isStudent", "age" and "zip". isStudent is a boolean and is true. age is 34, and zip is 55407.
+// Then it tries to run some compound conditionals.
+// The first is a if conditional and  says if "isStudent is true and zip is greater than 80,000". This is not the correct line to run.
+// Then we start using else if conditionals that says "if isStudent equlas false OR age is less than 30". Neither side is true so this is not the correct line to run.
+// The third option is an else if  that says "isStudent is true". This is the correst, so this is the correct else if conditional and will run this line.
+// We would console.log ("welcome to Prime!");
 
 //CODE
 /*
