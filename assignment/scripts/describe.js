@@ -131,6 +131,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - variable colorOne should be set to blue,variable  colorTwo should be set to red.
+// in the if conditional we need to add that variable colorTwo also will be set to purple now.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -144,6 +147,9 @@ if (mix === true) {
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+
+// FIX - The code right now is using the wrong operator, it should be && (both conditionals are true)
+
 
 /*
 let temp = 40;
