@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We made a variable and called name, than we set its value to be Dane.
-// Than we make a if conditional  that if the variable "dane" equals "mary" then the console log will read "Hi Mary"
-// Dane does not equal mary so we use an else conditional becuase it was false in the if conditional.
+// We made a variable called name and assigned its value to be "Dane".
+// Than we make a if conditional  that says, if variable name equals "mary" then the console log will read "Hi Mary"
+// The Variable name does not equal mary, so below that we use an else conditional becuase the other conditionals were false.
 // Else conditional is used. We console.log("How do you do?");
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make 2 variables, "code" and "secret". Code is given a value of 123 and secret has not been given a value yet.
-// Than we make a if conditional that says if variable code equals 123(which it does) than we reassign values to our variables.
-// Variable secret now is "super" and variable code is now "246".
-// The next conditional says if code is greater than 250 than secret will changes its variable to duper. This is not true so this conditional is not used.
-// We would console.log ("super");
+// Than we make a if conditional that says if  the variable "code" equals 123(which it does) than we reassign values to our "secret" and "code" variables.
+// Variable secret now is assigned the value "super". And variable code is now assigned the value "246".
+// The next conditional says if code is greater than 250 than the variable "secret" will changes its value to "duper". This is not true so this conditional is not used.
+// We would console.log ("secret"); Which would come up as "super"
 
 //CODE
 /*
@@ -72,9 +72,10 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Three Variables are established, "isStudent", "age" and "zip". isStudent is a boolean and is true. age is 34, and zip is 55407.
 // Then it tries to run some compound conditionals.
-// The first is a if conditional and  says if "isStudent is true and zip is greater than 80,000". This is not the correct line to run.
-// Then we start using else if conditionals that says "if isStudent equlas false OR age is less than 30". Neither side is true so this is not the correct line to run.
-// The third option is an else if  that says "isStudent is true". This is the correst, so this is the correct else if conditional and will run this line.
+// The first is a if conditional and says if "isStudent is true AND zip is greater than 80,000". This is not the correct line to run.
+// Then we start using else if conditionals (because the first condition is false.) It says "isStudent equlas false OR age is less than 30". Neither side is true so this is not the correct line to run.
+// The third option  says "isStudent is true". This is the correct, so this line will run.
+// (If none of the conditions were true is would of ran the else conditional and the console.log would of said "how about the weather?"");
 // We would console.log ("welcome to Prime!");
 
 //CODE
@@ -134,6 +135,15 @@ if (number >= 2) {
 // FIX - variable colorOne should be set to blue,variable  colorTwo should be set to red.
 // in the if conditional we need to add that variable colorTwo also will be set to purple now.
 
+// let colorOne = "blue";
+// let colorTwo = "red";
+// let mix = true;
+
+// if (mix === true) {
+//colorOne = "purple";
+//colorTwo = "purple"; 
+}
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -149,7 +159,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 // FIX - The code right now is using the wrong operator, it should be && (both conditionals are true)
-
+// if (temp > 39 && time >= 4)
 
 /*
 let temp = 40;
@@ -163,6 +173,9 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+// Fix - wrong operator used, they used the less than or equal to when they were suppose to use >=. In this case tho it would still work because "minage(21)" is equal to or smaller than "age(21)"
+//the console.log would still read("enter")
 
 /*
 let age = 21;
